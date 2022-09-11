@@ -1,0 +1,116 @@
+.App {
+width: 100vw;
+height: 100vh;
+position: relative;
+}
+
+.sidebar{
+  background: rgb(47, 47, 47);
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+}
+.Nav{
+  height: 90px;
+  width: 100vw;
+  position: -webkit-sticky;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration:none ;
+}
+.container{
+  left: 0;
+  display: flex;
+  position: fixed;
+}
+main{
+  width:100px;
+  padding: 20px;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding:20px 15px ;
+
+}
+.logo{
+  color: white;
+  font-size: 25px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.bars:hover{
+  background-color: aqua;
+}
+.link{
+  display: flex;
+  color:white;
+  padding: 10px 15px;
+}
+.link:hover{
+  color: rgb(15, 16, 15);
+  background-color: aqua;
+}
+.Dash{
+  position: relative;
+}
+.icons{
+  font-size: 25px;
+}
+.link_text{
+font-size: 20px;
+margin-left: 10px;
+}
+.log{
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 70px;
+}
+.logout{
+ margin-left: 80vw;
+}
+.btn{
+  margin-top: 20px;
+  width: 150px;
+  height:50px ;
+  border-radius: 6px;
+}
+.btn:hover{
+  background-color: aqua;
+}
+.navbar{
+  position:sticky;
+  top: 0;
+
+}
+.table{
+
+  margin-left: 20vw;
+  width: 500px;
+}
+.heading{
+  margin-left: 30vw;
+}
+.loginPage{
+background-color: antiquewhite;
+}
+.loginbtn{
+  background-color: aqua;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 80px;
+  height:30px ;
+  border-radius: 5px;
+  border: none;
+}
+.loginhed{
+margin-left: 50px;
+}
